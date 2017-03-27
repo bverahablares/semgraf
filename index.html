@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es"> <!--quiere decir que el lenguaje es español-->
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- COMMON TAGS -->
+  <meta charset="utf-8">
+  <title>Primera página</title>
+  <!-- Search Engine -->
+  <meta name="description" content="Hola, este es mi nombre y estoy aprendiendo a hacer aplicaciones web">
+  <meta name="image" content="http://getbootstrap.com/examples/screenshots/jumbotron.jpg">
+  <!-- Schema.org for Google -->
+  <meta itemprop="name" content="Primera página">
+  <meta itemprop="description" content="Hola, este es mi nombre y estoy aprendiendo a hacer aplicaciones web">
+  <meta itemprop="image" content="http://getbootstrap.com/examples/screenshots/jumbotron.jpg">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Primera página">
+  <meta name="twitter:description" content="Hola, este es mi nombre y estoy aprendiendo a hacer aplicaciones web">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:title" content="Primera página">
+  <meta name="og:description" content="Hola, este es mi nombre y estoy aprendiendo a hacer aplicaciones web">
+  <meta name="og:image" content="http://getbootstrap.com/examples/screenshots/jumbotron.jpg">
+  <meta name="og:url" content="http://www.faco.cl">
+  <meta name="og:site_name" content="Diseño y Nuevos Medios">
+  <meta name="og:locale" content="es_CL">
+  <meta name="og:type" content="website">
+  <link href="normalize.css" rel="stylesheet">
+  <link href="estilo.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+  <div class="container">
+<header><!--esto describe agrupaciones de contenido, un ejemplo es para los que tengan problemas con la utilización del sitio como ciegos-->
+<h1>Hola mundo!</h1>
+<h2>Gráfica Computacional I<br>HTML, CSS y JS</h2>
+</header>
+
+<section>
+  <article>
+<h3>Animación en conciertos musicales</h3>
+<p>La importancia de las proyecciones visuales en conciertos musicales y cómo son un aporte en el concepto de los artistas(?)</p>
+<figure>
+<img src="http://lorempixel.com/800/500/people/" alt="un patito nadando">
+<figcaption>Fotos de personas por la vida gracias a:<a href="http://lorempixel.com/" target="_blank">lorempixel.com</a></figcaption>
+</figure>
+</article>
+<h3>Advertencia!</h3>
+<p>No tengo muy claro el tema concreto pero los temas de <em>mi interés</em>: </p>
+<ul>
+<li>Branding</li>
+<li>Videojuegos</li>
+<li>Motion Graphics</li>
+</ul>
+
+<p>En orden o por <em>prioridad</em> para sumarle a estos temas serían los siguientes conceptos:</p>
+<ol>
+<li>Percepción</li>
+<li>Tolerancia</li>
+<li>Incorporación</li>
+</ol>
+
+<h3>Profesores que han aportado en animación o derivados computacionales</h3>
+
+<!--Comienza la tabla-->
+<table>
+  <thead><!--cabeza-->
+  <tr><!--encabezados por fila-->
+  <th>Nro.</th>
+  <th>Apellido</th>
+  <th>Nombre</th>
+  <th>Curso</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>Perelli</td>
+      <td>Bruno</td>
+      <td>Gráfica Computacional I</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Velasco</td>
+      <td>Constanza</td>
+      <td>Gráfica Computacional II</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Rossi</td>
+      <td>Bruno</td>
+      <td>Multimedia I - II</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Pagueguy</td>
+      <td>Sebastián</td>
+      <td>Diseño y animación de Personajes</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Rojas</td>
+      <td>Carlos</td>
+      <td>Lenguaje Audiovisual I</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Cortéz</td>
+      <td>Felipe</td>
+      <td>Seminario Gráfica Computacional I</td>
+    </tr>
+
+  </tbody>
+</table>
+<!--Termina la tabla-->
+
+<p>En la tabla tenemos que reconocer lo que aportó cada una de las asignaturas:</p>
+
+<!--en lo que sigue uso algunas description list (DL), que deben contener un description term (DT) y una description description (DD)-->
+
+  <dl>
+    <dt>Gráfica Computacional I</dt>
+    <dd>Uso de <strong>Photoshop, Illustrator, After Effects, Adobe Premiere</strong></dd><!--definicion de la definicion-->
+  </dl>
+
+  <dl>
+    <dt>Gráfica Computacional II</dt>
+    <dd>Uso de  <strong>InDesign, Procesing, Dreamwevear, Adobe Edge</strong></dd>
+  </dl>
+
+  <dl>
+    <dt>tbody</dt>
+    <dd>Dentro de la <strong>t</strong>able misma, también puedo definir un <strong>body</strong></dd>
+  </dl>
+
+  <dl>
+    <dt>tr</dt>
+    <dd>cada <strong>t</strong>able <strong>r</strong>ow of cells</dd>
+  </dl>
+
+  <dl>
+    <dt>td</dt>
+    <dd>cada <strong>t</strong>able <strong>d</strong>ata cell</dd>
+  </dl>
+
+  <dl>
+    <dt>th</dt>
+    <dd>cada <strong>T</strong>able Data cell que tiene rol de <strong>H</strong>eader</dd>
+  </dl>
+
+  <h3>Y, por ahora, este es el último subtítulo de tercer nivel</h3>
+  <p>Existen varios elementos HTML, pero son limitados. Cada elemento puede anidar otros elementos. Además, los elementos puede tener <span style="color:blue">atributos particulares</span></p>
+
+</section>
+<footer>
+<p><a href="mailto:bverahablares@gmail.com">Brian Vera H.</a> | 20 de marzo, 2017</p>
+</footer>
+</div>
+
+</body>
+</html>
